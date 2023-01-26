@@ -1,0 +1,37 @@
+.Registerpagediv{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+}
+.innerpageDiv{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.registerformdiv{
+margin-left:300px;
+    height: 500px;
+    width: 700px;
+
+}
+.forminput{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-top: 10px;
+    width: 400px;
+    height: 20px;
+}
+.registerimage{
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+    
+    background-image:url('./hand-pressing-register-now-on-260nw-328898132.webp');
+}
+
+.errordetails{
+   color: red;
+}
